@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    tools:context="com.ozge.bitirme.BabyWirstband.MeasurementActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:weightSum="100"
+        android:id="@+id/linearLayout"
+        android:layout_weight="0.32">
+        <ImageButton
+            android:layout_width="162dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imgBttnMove"
+            android:src="@mipmap/ic_babybtn"
+            android:background="@color/colorAccent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sleeping"
+            android:id="@+id/textSleep"
+            android:layout_gravity="right"
+            android:textAlignment="center"
+            android:paddingTop="85dp"
+            android:textSize="35dp"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:weightSum="100"
+        android:id="@+id/linearLayout1"
+        android:layout_weight="0.32">
+        <ImageButton
+            android:layout_width="162dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imgBttnTemprature"
+            android:src="@mipmap/ic_tempraturebtn"
+            android:background="@color/colorAccent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="30 C"
+            android:id="@+id/textTemperature"
+            android:layout_gravity="right"
+            android:textAlignment="center"
+            android:paddingTop="85dp"
+            android:textSize="35dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:weightSum="100"
+        android:id="@+id/linearLayout2"
+        android:layout_weight="0.32">
+        <ImageButton
+            android:layout_width="162dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imgBttnPulse"
+            android:src="@mipmap/ic_pulsebtn"
+            android:background="@color/colorAccent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="110"
+            android:id="@+id/txtPulse"
+            android:layout_gravity="right"
+            android:autoText="true"
+            android:textAlignment="center"
+            android:paddingTop="85dp"
+            android:textSize="35dp"/>
+
+    </LinearLayout>
+</LinearLayout>

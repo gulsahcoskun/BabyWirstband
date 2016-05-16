@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:weightSum="1"
+        android:layout_weight="0.62">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:text="Name:"
+            android:id="@+id/textAd"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:layout_weight="0.04" />
+        <EditText
+            android:layout_width="38dp"
+            android:layout_height="56dp"
+            android:id="@+id/editTxtName"
+            android:layout_weight="0.86"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout2"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:paddingLeft="16dp"
+            android:text="Surname:"
+            android:id="@+id/textsoyAd"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:layout_weight="0.04" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="66dp"
+            android:id="@+id/editTxtSurame"
+            android:textSize="15dp"
+            android:layout_weight="0.82" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout3"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:text="BIRTHDAY:"
+            android:id="@+id/txtDate"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:layout_weight="0.04" />
+
+        <EditText
+            android:layout_width="229dp"
+            android:layout_height="60dp"
+            android:inputType="date"
+            android:id="@+id/editTxtDate"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+    //RADİOBUTTON
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout4"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:weightSum="1">
+
+        <RadioGroup android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="35dp">
+
+            <RadioButton android:id="@+id/radioBtnGirl"
+                android:layout_width="93dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radioButton2"
+
+                android:text="Girl"/>
+                <RadioButton android:id="@+id/radioBtnBoy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Boy"/>
+
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+    //BUtton
+    <LinearLayout
+        android:layout_width="148dp"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout5"
+        android:weightSum="1">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/ic_addbtn"
+            android:id="@+id/imageAdd" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout6"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:weightSum="1" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:text="Eklendi mi?"
+            android:id="@+id/txtAddState"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:layout_weight="0.04" />
+
+    </LinearLayout>
+</LinearLayout>

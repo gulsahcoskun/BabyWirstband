@@ -1,0 +1,19 @@
+<!--
+  ~ Copyright 2015 MbientLab Inc. All rights reserved.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.ozge.bitirme.BabyWirstband.MainActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_connect" android:title="@string/connect"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_clear_log" android:title="@string/clear_restart"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_reset_device" android:title="@string/reset_device"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sarj" android:actionViewClass="android.widget.TextView"
+        app:showAsAction="always" android:title="Bileklik Battery" />
+</menu>

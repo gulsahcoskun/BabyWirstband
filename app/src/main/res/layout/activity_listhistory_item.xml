@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="57dp"
+    android:layout_alignWithParentIfMissing="true"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:weightSum="100"
+    android:id="@+id/linearLayout1"
+    android:layout_weight="0.09">
+
+    <TextView
+        android:layout_width="124dp"
+        android:layout_height="match_parent"
+        android:text="Sleep"
+        android:id="@+id/txtDateItem"
+        android:padding="@dimen/activity_vertical_margin"
+        android:textSize="10dp"
+        android:background="@color/colorGray"
+        />
+
+    <TextView
+        android:layout_width="124dp"
+        android:layout_height="match_parent"
+        android:text="Sleep"
+        android:id="@+id/txtStateItem"
+        android:padding="@dimen/activity_vertical_margin"
+        android:textSize="10dp"
+        android:background="@color/colorGray"
+        />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:id="@+id/imgBttnSleepingItem"
+        android:src="@mipmap/ic_babybtn"
+        android:background="@color/colorGray" />
+
+
+</LinearLayout>
+
+
+
+</LinearLayout>
